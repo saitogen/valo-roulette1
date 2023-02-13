@@ -7,6 +7,7 @@ import Chamber from "./components/Chamber";
 import Reyna from "./components/Reyna";
 import Sky from "./components/Sky";
 import Yoru from "./components/Yoru";
+import Fade from "./components/Fade";
 export default function App() {
   return (
     <BrowserRouter>
@@ -33,6 +34,9 @@ export default function App() {
       </Route>
       <Route path="/Reyna">
         <Reyna />
+      </Route>
+      <Route path="/Fade">
+        <Fade />
       </Route>
     </BrowserRouter>
   );
