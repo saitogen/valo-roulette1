@@ -6,14 +6,14 @@ export default function Roulette(memo) {
     const [index, setIndex] = useState(0);
 
     const rouletteContents = [
-        "ジェット",
-        "キルジョイ",
+        <Link to={"/jett"}>ジェット</Link>,
+        <Link to={"/killjoy"}>キルジョイ</Link>,
         <Link to={"/neon"}>ネオン</Link>,
-            "チェンバー",
-            "ヨル",
-            "スカイ",
-            "フェイド",
-            "レイナ"
+        <Link to={"/chamber"}>チェンバー</Link>,
+        <Link to={"/yoru"}>ヨル</Link>,
+        <Link to={"/sky"}>スカイ</Link>,
+        <Link to={"/fade"}>フェイド</Link>,
+        <Link to={"/reyna"}>レイナ</Link>
 ];
 
     //ボタンの文言を変更する処理
