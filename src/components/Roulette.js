@@ -39,7 +39,7 @@ export default function Roulette(memo) {
     return (
         <>
             <div>
-                <p>今日使った方がいいキャラは。。。？</p>
+                <h1>今日使った方がいいキャラは。。。？</h1>
                 <p>{rouletteContents[index]}</p>
             </div>
             <button type="button" onClick={startRoulette}>

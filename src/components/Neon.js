@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Neon() {
     return (
         <>
-        <h1>ネオン</h1>
+        <h2>ネオン</h2>
         <img src="/neon.jpg"></img>
             <p>ネオンはフィリピン出身のデュエリストです。</p>
 <p>先頭を切って敵と撃ち合いをしたり、サイト内へエントリー（先陣を切ってサイトに入ること）をして味方を勝利へ導くことが得意なエージェントになります。</p>
